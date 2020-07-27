@@ -2,7 +2,7 @@
 Used a monthly traffic fatality data set of fifteen years (1960-1974) to perform a time series analysis that can predict the traffic fatality rates in Ontario, Canada.
 
 
-R Code - no output, check PDF file.
+R Code - for output, check PDF file.
 
 knitr::opts_chunk$set(echo = TRUE)
 setwd("C:/Users/Chelsea/Desktop/Chelsea School/Pstat 174") #sets my working directory traffic.csv = read.table('data.txt', header = FALSE) #reads the txt file for the time series #head(traffic.csv)
